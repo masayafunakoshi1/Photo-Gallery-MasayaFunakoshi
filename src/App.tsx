@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Title from './comps/Title';
 import UploadForm from './comps/UploadForm';
 import ImageGrid from "./comps/ImageGrid"
@@ -19,6 +19,9 @@ export interface FilesProps{
 const App: React.FC <AppProps> = () => {
   const [selectedImg, setSelectedImg] = useState(null);
 
+  useEffect(() => {
+    document.title='MasaFuna Photo Gallery'
+  }, [])
 
   return (
     <div className="App">

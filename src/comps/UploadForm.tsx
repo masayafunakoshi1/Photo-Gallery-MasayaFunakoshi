@@ -4,21 +4,6 @@ import { motion } from "framer-motion"
 import "./UploadForm.css"
 import { FilesProps } from '../App'
 
-// export interface newFilesProps{
-//     file:{
-//         url: string;
-//         progress: number;
-//         name: string;
-//         size: any;
-//         type: any;
-//         lastModified: any;
-//         arrayBuffer: any;
-//         slice: any; 
-//         stream: any;
-//         text: any;
-//     };
-// }
-
 const UploadForm: React.FC <FilesProps> = () => {
     const [file, setFile] = useState<FilesProps | null>(null);
     const [error, setError] = useState<string | null>(null);
