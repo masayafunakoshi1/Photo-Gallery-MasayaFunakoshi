@@ -1,4 +1,4 @@
-App launched using Netlify:
+App launched using Netlify: https://masaya-funakoshi-photo-gallery.netlify.app/
 
 =======
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
